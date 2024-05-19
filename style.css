@@ -1,0 +1,158 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+body {
+	font-family: sans-serif;
+	width: 1280px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px 5px black;
+}
+html {
+	width: 100%;
+}
+
+footer,
+section {
+	padding: 20px 40px;
+}
+header {
+	padding: 20px 0px;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+	padding: 15px 30px;
+	border-radius: 10px;
+	transition: 250ms;
+}
+nav a:hover {
+	background-color: rgba(255, 255, 255, 0.434);
+	transition: 250ms;
+}
+h2 {
+	font-size: 48px;
+	padding: 0;
+	margin: 0;
+}
+
+.hero {
+	height: 610px;
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/770/87/694/potatoes-fries-coke-ice-wallpaper-preview.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.about {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 50px;
+}
+.about div {
+	width: 50%;
+}
+.store {
+	padding: 40px 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.store h2,
+.review h2 {
+	text-align: center;
+}
+.store__container {
+	display: flex;
+	justify-content: space-between;
+}
+.store article img {
+	border-radius: 10px;
+}
+.store article {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: normal;
+	transition: 250ms;
+	border-radius: 14px;
+	padding: 20px;
+}
+
+.store article:hover {
+	background-color: #a42c21;
+	color: white;
+}
+.store article p:first-child {
+	font-size: 32px;
+}
+.review {
+	display: flex;
+	flex-direction: column;
+
+	gap: 40px;
+	background-color: #a42c21;
+	color: white;
+}
+.review img {
+	width: 200px;
+	transition: 250ms;
+}
+.review img:hover {
+	transform: scale(1.05);
+	transition: 250ms;
+}
+.review div {
+	margin: 0 auto;
+	width: 70%;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+.review div:last-child {
+	margin-bottom: 50px;
+}
+.adress {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	text-align: center;
+}
+footer {
+	background-color: #a42c21;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.media {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.media img {
+	width: 40px;
+}
+.media__container {
+	display: flex;
+	gap: 20px;
+}
+.media a {
+	transition: 250ms;
+}
+.media a:hover {
+	transform: scale(1.1);
+	transition: 250ms;
+}
